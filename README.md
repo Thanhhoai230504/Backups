@@ -22,7 +22,7 @@ Dự án này tự động sao lưu (backup) các file cơ sở dữ liệu (`.s
 
 ## Cấu trúc thư mục
 
-📁 BT_BOI5
+📁 BT_BUOI5
 ├──  backup.py          # Hàm thực hiện backup database
 ├──  send_email.py      # Hàm gửi email thông báo kết quả backup
 ├──  scheduler.py       # File chính chạy định kỳ để tự động backup
