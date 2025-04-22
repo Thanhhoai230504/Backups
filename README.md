@@ -22,4 +22,11 @@ Dự án này tự động sao lưu (backup) các file cơ sở dữ liệu (`.s
 
 ## Cấu trúc thư mục
 
-. ├── backup.py # Hàm backup database ├── send_email.py # Hàm gửi email thông báo ├── scheduler.py # File chạy chính để tự động backup ├── .env # Thông tin email (KHÔNG đẩy lên GitHub) ├── requirements.txt # Danh sách thư viện cần cài ├── databases/ # Chứa các file database gốc └── backups/ # Tự tạo, chứa các file backup
+📁 BT_BOI5
+├──  backup.py          # Hàm thực hiện backup database
+├──  send_email.py      # Hàm gửi email thông báo kết quả backup
+├──  scheduler.py       # File chính chạy định kỳ để tự động backup
+├──  .env               # Chứa thông tin email 
+├──  requirements.txt   # Danh sách các thư viện cần thiết
+├──  databases/         # Chứa các file database gốc 
+└──  backups/           # Được tạo tự động, chứa các file backup
